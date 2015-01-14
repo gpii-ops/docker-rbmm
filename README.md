@@ -31,7 +31,7 @@ docker run \
 -d \
 -p 8080:8080 \
 --name="rbmm-java" \
-inclusivedesign/rbmm-java
+gpii/rbmm-java
 ```
 
 
