@@ -41,4 +41,4 @@ In order to build an image the RuleBasedMatchMaker_RESTful_WS_Maven repository w
 
     git clone https://github.com/NickKaklanis/RuleBasedMatchMaker_RESTful_WS_Maven.git -b review3
 
-    docker build --rm=true -t <your name>/rbmm-java:$(git --git-dir=universal/.git --work-tree=universal rev-parse --short HEAD) .
+    docker build --rm=true -t <your name>/rbmm-java:$(git --git-dir=RuleBasedMatchMaker_RESTful_WS_Maven/.git --work-tree=RuleBasedMatchMaker_RESTful_WS_Maven rev-parse --short HEAD) .
